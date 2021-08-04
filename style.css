@@ -1,0 +1,83 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Poppins&family=Patua+One&family=Raleway&family=Rubik&family=Varela+Round&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+  --Baloo: "Baloo Thambi 2", cursive;
+  --rubik: "Rubik", sans-serif;
+}
+
+body{
+    background-color: #CDF3A2 !important;
+}
+
+.about-section {
+  margin-top: 2%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.name h1 {
+  padding-bottom: 2%;
+  text-transform: uppercase;
+  font-family: var(--rubik);
+  font-size: 59px;
+  font-weight: bold;
+}
+
+.name h2 {
+  color: #29383f !important;
+  font-family: var(--rubik);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.name p {
+  font-family: var(--Baloo);
+  font-size: 18px;
+  text-align: justify;
+  padding-bottom: 2%;
+}
+
+.contactMe {
+  color: #29383f !important;
+  font-family: var(--rubik);
+  font-weight: bold;
+}
+
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-family: var(--Baloo);
+    font-size: 18px;
+    transition: all 0.5s ease;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .about-section h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .about-section img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+  }
+}
